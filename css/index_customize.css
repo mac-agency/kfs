@@ -496,6 +496,21 @@ a:hover img{
   height: 500px;
 }
 
+.contact-mail-name {
+  color: hsla(0,0%,0%,1.00);
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 22px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.contact-mail-required {
+  font-size: 15px;
+  padding-left: 8px;
+  color: hsla(359,100%,50%,1.00);
+}
+
 @media (max-width:320px){
 
 .fee_table_width {
