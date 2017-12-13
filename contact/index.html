@@ -175,13 +175,51 @@
 			<div class="row">
 			  <div class="col-sm-10 col-sm-offset-1"> 
 					<h3 class="text-center">只今、お問い合わせフォーム工事中<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+ <div class="contact-top-img">
+      <h2 class="about-top-title">お問い合わせ</h2>
+    </div>
+    <form id="form" method="post" action="mail.php">
+      <section class="contact">
+        <h3 class="contact-title">電話でのお問い合わせ</h3>
+        <section class="contact-phone">
+          <p class="contact-phone-title">\ お気軽にお電話下さい /</p>
+          <a class="contact-phone-button" href="tel:092-710-7572">092-710-7572</a>
+          <h2 class="contact-phone-company">株式会社 九州福祉サービス</h2>
+          <p class="contact-phone-info">10時〜19時はお電話でのお問い合わせも承っております。<br>※電話番号は、おかけ間違いのないようご注意ください。</p>
+        </section>
+        <h3 class="contact-title">メールでのお問い合わせ</h3>
+        <section class="contact-mail">
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name">ご用件<span class="contact-mail-required">必須</span></div>
+            <input class="text" type="text" name="subject" placeholder="ご用件を入力" required>
+          </div>
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name">お名前<span class="contact-mail-required">必須</span></div>
+            <input class="text" type="text" name="name" placeholder="山田太郎" required>
+          </div>   
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name">住所</div>
+            <input class="text-bgw" type="text" name="address" placeholder="福岡県久留米市一丁目">
+          </div>
+          <div class="contact-mail-contents">
+              <div class="contact-mail-name">電話番号</div>
+              <input class="text-bgw" type="tel" name="tel" placeholder="03-1234-5678">
+            </div>
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name">メールアドレス<span class="contact-mail-required">必須</span></div>
+            <input class="text" type="email" name="email" placeholder="hogehoge.gmail.com" required>
+          </div>
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name">お問い合わせ内容<span class="contact-mail-required">必須</span></div>
+            <textarea class="text" name="message" cols="50" rows="10" placeholder="資料請求をお願いします。" required></textarea>
+          </div>
+          <div class="contact-mail-contents">
+            <div class="contact-mail-name"></div>
+            <button class="contact-mail-submit">送信</button>
+          </div>
+        </section>
+      </section>
+    </form> 
 </h3>
         </div>
 		  </div>
