@@ -511,6 +511,21 @@ a:hover img{
   color: hsla(359,100%,50%,1.00);
 }
 
+.form_waku {
+  width: 50%;
+}
+
+.text {
+  font-size: 18px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-mail-contents {
+  margin-bottom: 15px;
+}
+
 @media (max-width:320px){
 
 .fee_table_width {
@@ -625,6 +640,12 @@ a:hover img{
 
 .bn_non {
   display: none;
+}
+
+.contact-mail-submit.btn.btn-info.active.text-center {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 
@@ -742,6 +763,12 @@ a:hover img{
 .bn_non {
   display: none;
 }
+
+.contact-mail-submit.btn.btn-info.active.text-center {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+}
 }
 
 @media (min-width:376px) and (max-width:414px){
@@ -855,6 +882,12 @@ a:hover img{
 
 .bn_non {
   display: none;
+}
+
+.contact-mail-submit.btn.btn-info.active.text-center {
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 }
 
@@ -1402,6 +1435,13 @@ li a {
 @media (min-width:415px){
 .pc_non {
   display: none;
+}
+
+.text {
+  font-size: 18px;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 }
 
