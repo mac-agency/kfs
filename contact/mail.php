@@ -21,7 +21,7 @@ $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
 if ($mail_status) { ?>
     <script language="javascript" type="text/javascript">
-        window.location = 'thanks.html#contact（※送信後に移動するページ）';
+        window.location.href = "../thank_you/index.html";
     </script>
 <?php
 }
