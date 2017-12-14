@@ -1430,6 +1430,10 @@ li a {
 .btn {
   text-align: center;
 }
+.fadeInLeft {
+  -webkit-animation-name: none;
+  animation-name: none;
+}
 }
 
 @media (min-width:415px){
