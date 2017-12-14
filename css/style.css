@@ -279,6 +279,8 @@ h6 {
 #section-header{
   background: #fff;
   height: 60px;
+  /* [disabled]margin-top: -5px; */
+  /* [disabled]padding-top: 8px; */
 }
 .navbar-nav li{}
 .navbar-nav li a{
@@ -2317,7 +2319,7 @@ a.details:hover{
 
 
 #slider{
-	padding: 80px 0px;
+  padding: 10px 0px;
 }
 
 .welcome-text{

@@ -406,6 +406,7 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
+  margin-top: -50px;
 }
 
 #branch_top_sm {
@@ -649,6 +650,16 @@ a:hover img{
   padding-right: 30%;
 }
 
+#section-header {
+  background: #fff;
+  height: 50px;
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: -50px;
+  position: static;
+}
+
 
 }
 
@@ -771,6 +782,16 @@ a:hover img{
   padding-left: 30%;
   padding-right: 30%;
 }
+
+#section-header {
+  background: #fff;
+  height: 50px;
+  padding-bottom: 50px;
+  margin-top: -50px;
+  top: -50px;
+  position: static;
+  padding-top: 50px;
+}
 }
 
 @media (min-width:376px) and (max-width:414px){
@@ -889,6 +910,16 @@ a:hover img{
   text-align: center;
   padding-left: 30%;
   padding-right: 30%;
+}
+
+#section-header {
+  background: #fff;
+  height: 50px;
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: -50px;
+  position: static;
 }
 }
 
@@ -1022,6 +1053,13 @@ a:hover img{
   border-bottom: 1px solid hsla(0,0%,84%,1.00);
   z-index: 1;
   background: hsla(0,0%,95%,1.00);
+}
+
+#section-header {
+  background: #fff;
+  height: 55px;
+  margin-top: -5px;
+  padding-top: 8px;
 }
 }
 
