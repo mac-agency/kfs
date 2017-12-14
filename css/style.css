@@ -1356,14 +1356,14 @@ figure.effect-zoe figcaption .icon-links a:hover i{
 	margin-top: 30px;
 }
 .btn{
-	padding: 13px 50px;
-	border-radius: 0px;
-	font-weight: 700;
-	border: 1px solid transparent;
-	-webkit-transition: all .4s ease 0s;
-	-o-transition: all .4s ease 0s;
-	transition: all .4s ease 0s;
-	font-size: 14px;
+  padding: 35px auto 20px;
+  border-radius: 0px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  -webkit-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+  font-size: 14px;
 }
 .btn-default.featured{
     border-color:#F2EF1D;
@@ -1444,22 +1444,22 @@ figure.effect-zoe figcaption .icon-links a:hover i{
 
 /* General button style (reset) */
 .btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 20px 80px;
-	display: inline-block;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 50px auto 35px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn:after {
