@@ -406,7 +406,7 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
-  margin-top: -50px;
+  /* [disabled]margin-top: -50px; */
 }
 
 #branch_top_sm {
@@ -474,7 +474,7 @@ a:hover img{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 81% 0%;
-  margin-top: -50px;
+  /* [disabled]margin-top: -50px; */
 }
 
 #policy_top_sm {
@@ -789,11 +789,12 @@ a:hover img{
 #section-header {
   background: #fff;
   /* [disabled]height: 50px; */
-  padding-bottom: 50px;
-  margin-top: -50px;
-  top: -50px;
+  /* [disabled]padding-bottom: 50px; */
+  /* [disabled]margin-top: -50px; */
+  /* [disabled]top: -50px; */
   position: static;
-  padding-top: 50px;
+  /* [disabled]padding-top: 50px; */
+  z-index: 999;
 }
 }
 

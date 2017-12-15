@@ -374,7 +374,8 @@ figure.effect-zoe figcaption {
     background: #fff;
 }
 .navbar-main {
-    background: rgba(255,255,255,.9);
+  background: rgba(255,255,255,.9);
+  z-index: 1000;
 }
 
 .navbar-nav li a{
