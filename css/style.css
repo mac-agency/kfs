@@ -2832,14 +2832,14 @@ a.details:hover{
 /*BAck to TOP
 =====================*/
 #back-to-top {
-	right: 40px;
-	top: auto;
-	z-index: 1;
-	-webkit-backface-visibility: hidden;
+  right: 30px;
+  top: auto;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
 }
 
 #back-to-top.affix {
-	bottom: 60px;
+  bottom: 50px;
 }
 
 #back-to-top .btn.btn-primary{
