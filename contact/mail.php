@@ -7,7 +7,7 @@ $field_address 	= $_POST['address'];
 $field_email 	= $_POST['email'];
 $field_message = $_POST['message'];
 
-$mail_to = 'ishida@psid.co.jp,yamano@psid.co.jp';
+$mail_to = 'info@kyu-fukusi-service.co.jp';
 $subject = $field_name.' 様からお問合わせを承りました。' ;
 $body_message = 'お名前：'	.$field_name."\n";
 $body_message .= 'E-mail：'	.$field_email."\n";
