@@ -159,6 +159,7 @@ a:hover img{
 
 .home_hight {
   height: 500px;
+  margin-top: 30px;
 }
 
 .midashi_bar1 {
@@ -219,6 +220,7 @@ a:hover img{
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .h1_text {
@@ -279,6 +281,7 @@ a:hover img{
 
 .company_hight {
   height: 100%;
+  margin-top: 30px;
 }
 
 .welcome-wrapper {
@@ -339,7 +342,7 @@ a:hover img{
   font-size: 19px;
   width: 45px;
   height: 34px;
-  text-align: center;
+  /* [disabled]text-align: center; */
   margin-top: 8px;
   border-radius: 5px;
   border-style: none;
@@ -406,7 +409,7 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
-  /* [disabled]margin-top: -50px; */
+  padding-top: 0px;
 }
 
 #branch_top_sm {
@@ -661,8 +664,28 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
-  /* [disabled]margin-top: -50px; */
   width: 320px;
+  margin-top: 30px;
+}
+
+.slider_hight {
+  height: 798px;
+  width: 320px;
+}
+
+.home_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.second_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.company_hight {
+  height: 100%;
+  margin-top: 30px;
 }
 
 
@@ -799,8 +822,28 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
-  /* [disabled]margin-top: -50px; */
   width: 375px;
+  margin-top: 30px;
+}
+
+.slider_hight {
+  height: 798px;
+  width: 375px;
+}
+
+.home_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.second_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.company_hight {
+  height: 100%;
+  margin-top: 30px;
 }
 }
 
@@ -929,8 +972,28 @@ a:hover img{
 
 .slider_hight_sm {
   height: 667px;
-  /* [disabled]margin-top: -50px; */
   width: 414px;
+  margin-top: 30px;
+}
+
+.slider_hight {
+  height: 798px;
+  width: 414px;
+}
+
+.home_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.second_hight {
+  height: 500px;
+  margin-top: 30px;
+}
+
+.company_hight {
+  height: 100%;
+  margin-top: 30px;
 }
 }
 
@@ -1498,6 +1561,12 @@ li a {
   width: 50%;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.contact-mail-submit.btn.btn-info.active.text-center {
+  text-align: center;
+  padding: 30px 25%;
+  font-size: 24px;
 }
 }
 

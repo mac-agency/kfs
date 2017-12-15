@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja"><!-- InstanceBegin template="/Templates/base1.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="ja">
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- InstanceBeginEditable name="doctitle" -->
-  <title>九州福祉サービスの施設のご案内｜九州福祉サービス</title>
-  <!-- InstanceEndEditable -->
-  <!-- InstanceBeginEditable name="meta" -->
-  <meta name="description" content="株式会社九州福祉サービスの施設をご案内しています。">
-  <meta name="keywords" content="住宅型,老人ホーム,デイサービス,福祉施設,九州,福祉">
-  <!-- InstanceEndEditable -->
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>住宅型有料老人ホームとデイサービス｜九州福祉サービス</title>
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="meta" -->
+  <meta name="description" content="住宅型老人ホームとデイサービスで地域の介護福祉に貢献する株式会社九州福祉サービスをご案内しています。">
+  <meta name="keywords" content="老人ホーム,デイサービス,九州,福祉">
+  <!-- TemplateEndEditable -->
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,10 +36,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  <!-- InstanceParam name="footer_main" type="boolean" value="true" -->
-  <!-- InstanceParam name="contact_main" type="boolean" value="true" -->
-  <!-- InstanceBeginEditable name="head" -->
-  <!-- InstanceEndEditable -->
+  <!-- TemplateParam name="footer_main" type="boolean" value="true" -->
+  <!-- TemplateParam name="contact_main" type="boolean" value="true" -->
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
   </head>
   <body data-spy="scroll" data-target=".navigation">
     
@@ -54,9 +54,9 @@
                     <!-- Text -->
 									
                     <h1 class="h1_text">
-											<!-- InstanceBeginEditable name="h1_text" -->
-											九州福祉サービスの福祉施設
-											<!-- InstanceEndEditable --></h1>
+											<!-- TemplateBeginEditable name="h1_text" -->
+											九州の介護福祉に貢献する住宅型老人ホームとデイサービス
+											<!-- TemplateEndEditable --></h1>
 									
               </div>
             </div>
@@ -67,6 +67,7 @@
     <!-- section-top end -->
 
     <!-- navigation start -->
+    
 		<section>
 		  <nav class="navbar navbar-default navbar-fixed-top">
 		    <div class="container-fluid">
@@ -94,7 +95,7 @@
 		          <li><a href="../index.html">HOME<span class="sr-only">(current)</span></a></li>
 		          <li><a href="../home/index.html">住宅型老人ホーム</a></li>
 		          <li><a href="../day_service/index.html">デイサービス</a></li>
-		          <li><a href="index.html">施設</a></li>
+		          <li><a href="../branch/index.html">施設</a></li>
 		          <li><a href="../faq/index.html">よくある質問</a></li>
 	          </ul>
 						
@@ -109,21 +110,23 @@
     </section>
     <!-- navigation end -->
 		
-		<!-- InstanceBeginEditable name="EditRegion1" -->
+		<!-- TemplateBeginEditable name="EditRegion1" -->
     <!-- Slider start -->
-    <section id="branch_top" class="home_hight sm_non">
+    <section id="slider" class="slider_hight sm_non">
       <!--<div class="overlay2"></div>-->
       <div class="container-fluid">
-        <div class="row top_margin30">
-          <div class="col-md-3 col-md-offset-1 wow fadeInLeft col-xs-4 col-xs-offset-4" data-wow-delay=".5s"><img src="images/mark_branch.png" class="img-responsive retina slidInLeft wow center-block" alt="住宅型有料老人ホーム　2nd LIFE"></div>
+        <div class="row top_margin50">
+          <div class="col-md-3 col-md-offset-1 wow fadeInLeft" data-wow-delay=".5s"><img src="../images/slide_mark.png" class="img-responsive retina slidInLeft wow center-block" alt="住宅型有料老人ホーム　2nd LIFE"></div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-md-offset-8  wow slidInLeft">
+          <div class="col-md-3 col-md-offset-1  wow slidInLeft">
             <div class="welcome-text">
-              <!--<h2 class="slider-title2 wow slidInLeft text-center wow fadeInLeft" data-wow-delay="1.0s" >九州福祉サービスは<br>
-                セカンドライフを大切にしています。</h2>-->
-              <div class="row row-10 top_margin30 wow fadeInLeft" data-wow-delay="1.0s">
-                <div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-8 col-md-offset-2"><img src="images/ico_branch.png" class="img-responsive retina" alt="施設のご案内"></div>
+              <h2 class="slider-title2 wow slidInLeft text-center wow fadeInLeft" data-wow-delay="1.0s" >九州福祉サービスは<br>
+                セカンドライフを大切にしています。</h2>
+              <div class="row row-10 top_margin30 wow fadeInLeft" data-wow-delay="1.5s">
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_roujinhome.png" class="img-responsive retina" alt="住宅型有料老人ホーム"></a></div>
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_dayservice.png" class="img-responsive retina" alt="デイサービス"></a></div>
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_second_life.png" class="img-responsive retina" alt="ご家族サービス"></a></div>
               </div>
               <!--<p class= "wow slidInRight">Quisque portitor leo as vitae tincidun rutrum urna turpis nullam consequat.Scupiditate ex provident natus unde nam.Placeat.</p>
                         <a class="btn btn-slide wow fadeInUp" data-wow-delay="0s">Discover us</a>-->
@@ -132,20 +135,21 @@
         </div>
       </div>
     </section>
-		
-    <section id="branch_top_sm" class="home_hight pc_non">
+    <section id="slider2" class="slider_hight pc_non">
       <!--<div class="overlay2"></div>-->
       <div class="container-fluid">
-        <div class="row top_margin30">
-          <div class="col-md-3 col-md-offset-1 wow fadeInLeft" data-wow-delay=".5s"><img src="images/mark_branch.png" class="img-responsive retina slidInLeft wow center-block" alt="住宅型有料老人ホーム　2nd LIFE"></div>
+        <div class="row top_margin50">
+          <div class="col-md-3 col-md-offset-1 wow fadeInLeft" data-wow-delay=".5s"><img src="../images/slide_mark.png" class="img-responsive retina slidInLeft wow center-block" alt="住宅型有料老人ホーム　2nd LIFE"></div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-md-offset-8  wow slidInLeft">
+          <div class="col-md-3 col-md-offset-1  wow slidInLeft">
             <div class="welcome-text">
-              <!--<h2 class="slider-title2 wow slidInLeft text-center wow fadeInLeft" data-wow-delay="1.0s" >九州福祉サービスは<br>
-                セカンドライフを大切にしています。</h2>-->
-              <div class="row row-10 top_margin30 wow fadeInLeft" data-wow-delay="1.0s">
-                <div class="col-xs-6 col-xs-offset-3"><img src="images/ico_branch.png" class="img-responsive retina" alt="住宅型有料老人ホーム"></div>
+              <h2 class="slider-title2 wow slidInLeft text-center wow fadeInLeft" data-wow-delay="1.0s" >九州福祉サービスは<br>
+                セカンドライフを大切にしています。</h2>
+              <div class="row row-10 top_margin30 wow fadeInLeft" data-wow-delay="1.5s">
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_roujinhome.png" class="img-responsive retina" alt="住宅型有料老人ホーム"></a></div>
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_dayservice.png" class="img-responsive retina" alt="デイサービス"></a></div>
+                <div class="col-xs-4"><a href="#"><img src="../images/ico_second_life.png" class="img-responsive retina" alt="ご家族サービス"></a></div>
               </div>
               <!--<p class= "wow slidInRight">Quisque portitor leo as vitae tincidun rutrum urna turpis nullam consequat.Scupiditate ex provident natus unde nam.Placeat.</p>
                         <a class="btn btn-slide wow fadeInUp" data-wow-delay="0s">Discover us</a>-->
@@ -154,68 +158,115 @@
         </div>
       </div>
     </section>
-		
-		
     <!-- Slider end-->
     <div class="container">
-      <h2 class="main_title">九州に展開する<br>
-        末永く暮らしやすい住宅型有料老人ホーム</h2>
-			<div class="col-sm-6 col-sm-offset-3"><img src="../home/images/kazoku_manga.png" class="img-responsive retina" alt="家族みんなが安心の住宅型有料老人ホーム"></div>
+      <h2 class="main_title">暮らす・通う<br>
+        セカンドライスは九州福祉サービスで</h2>
     </div>
-		
-		<div class="container top_margin30 bottom_margin50">
-		  <div class="row">
-				<div class="col-lg-12"><div class="midashi_bar1"><h2 class="home_midashi1"><a href="umetsu.html">ソーシャルライフ梅満</a></h2></div></div>
-	    </div>
-<div class="row top_margin20">
-			<div class="col-lg-12">
-			<div class="col-lg-6 bottom_margin10">
-				<h4>住宅型有料老人ホーム・デイサービス</h4>
-				<table class="table">
-  <tbody>
-    <tr>
-      <td>所在地</td>
-      <td>福岡県久留米市梅満町320-1</td>
-    </tr>
-    <tr>
-      <td>交通</td>
-      <td>JR久留米駅から徒歩15分</td>
-    </tr>
-    <tr>
-      <td>電話番号</td>
-      <td><a href="tel:0942-65-6797">0942-65-6797</a></td>
-    </tr>
-    <tr>
-      <td>FAX番号</td>
-      <td>0942-65-6798</td>
-    </tr>
-  </tbody>
-</table>
-				</div>
-				<div class="col-lg-6 sayuu_padding_zero">
-					<div class="g_map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6668.815240958331!2d130.49376841292283!3d33.308157375885486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541a51bcde6aab1%3A0x28437e81c7314690!2z44CSODMwLTAwNDgg56aP5bKh55yM5LmF55WZ57Gz5biC5qKF5rqA55S6!5e0!3m2!1sja!2sjp!4v1512874300565" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>	
-					</div>
-				</div>
-			</div>
-	  </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 back_pink">
+          <div class="row">
+            <div class="col-lg-12 top_margin30">
+              <div class="col-sm-10 col-md-8 col-md-offset-2 col-sm-offset-1"><img src="../images/circle_home.png" class="img-responsive retina center-block circle" alt="住宅型老人ホーム"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="sub_title">一時金のない暮らしやすさで安心のセカンドライフ<br>
+                ご家族が安心できるセカンドホームの施設</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 top_margin50">
+              <div class="col-sm-10 col-md-8 col-md-offset-2 col-sm-offset-1"><a href="#" class="btn btn-block btn-link btn_waku1 link_text1 btn_padding1">詳しくはこちらをクリック！</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 back_home">
+          <div class="col-xs-11 col-xs-offset-1 top_margin20 sub_title2">セカンドライフを楽しく暮らす</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 back_dayservice">
+          <div class="col-xs-11 col-xs-offset-1 top_margin20 sub_title2 text-right">通う楽しみをみんなで</div>
+        </div>
+        <div class="col-sm-6 back_pink">
+          <div class="row">
+            <div class="col-lg-12 top_margin30">
+              <div class="col-sm-10 col-md-8 col-md-offset-2 col-sm-offset-1"><img src="../images/circle_dayservice.png" class="img-responsive retina center-block circle" alt="デイサービス"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="sub_title">通って安心のデイサービス<br>
+                楽しく一日過ごせるうれしい通所介護です</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 top_margin50">
+              <div class="col-sm-10 col-md-8 col-md-offset-2 col-sm-offset-1"><a href="#" class="btn btn-block btn-link btn_waku1 link_text1 btn_padding1">詳しくはこちらをクリック！</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-		
-		<div class="container bottom_margin30 sm_non">
-		  <div class="row">
-		    <div class="col-lg-12"><a href="../viewing/index.html"><img src="../home/images/bn_umematu.jpg" class="img-responsive retina" alt="ソーシャルライフ梅満　内覧会開催中"></a></div>
-	    </div>
-    </div>
-		
-		<div class="container bottom_margin30 pc_non">
-		  <div class="row">
-		    <div class="col-lg-12"><a href="../viewing/index.html"><img src="../home/images/bn_umematu_sm.jpg" class="img-responsive retina" alt="ソーシャルライフ梅満　内覧会開催中"></a></div>
-	    </div>
-    </div>
-<!-- section about start -->    <!-- section about end -->
-    <!-- InstanceEndEditable -->
+    <!-- section about start -->
+    <section id="intro-wrap" class="section-padding">
+      <div class="container">
+        <h2 class="section_title1">安心して暮らせるセカンドライフ</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-delay="0s">
+            <div class="service-box2"> <img src="../images/top_point1.jpg" class="img-rounded img-responsive retina" alt="何よりも大切なのは安心です">
+              <h4 class="point_title">何よりも大切なのは安心です</h4>
+              <p class="point_read">
+                <!--<i class="icon icon-flag"></i>-->
+                私たちは何よりも大切なのは「安心」だと考えています。<br>
+                ご入居されるご本人は言うに及ばず、ご家族も安心できる施設であることはとても重要で九州福祉サービスの施設は様々な観点から皆様にご納得いただける「安心の施設」と言えるでしょう。 </p>
+            </div>
+          </div>
+          <!-- col end -->
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-delay=".3s">
+            <div class="service-box2"> <img src="../images/top_point2.jpg" class="img-rounded img-responsive retina" alt="何よりも大切なのは安心です">
+              <h4 class="point_title">しあわせを育む暮らし</h4>
+              <p class="point_read">
+                <!--<i class="icon icon-flag"></i>-->
+                人が幸せであると考える。あるいはしあわせであると感じるのはどんなときでしょうか。<br>
+                長い歴史を刻んできたご入居者様は多様な思いをお持ちであると考えています。<br>
+                その多様な価値観を理解することは重要で、九州福祉サービスではご入居者の思いやお考えをしっかりと理解した上で、しあわせな暮らしのお手伝いをしたいと考えています。 </p>
+            </div>
+          </div>
+          <!-- col end -->
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-delay=".6s">
+            <div class="service-box2"> <img src="../images/top_point3.jpg" class="img-rounded img-responsive retina" alt="何よりも大切なのは安心です">
+              <h4 class="point_title">ふれあいのある豊かな暮らし</h4>
+              <p class="point_read">
+                <!--<i class="icon icon-flag"></i>-->
+                人は一人では生きていけないと、誰よりも理解されているのがご入居者ではないでしょうか。<br>
+                私たちはご入居者を家族の一員と捉えて「一緒に暮らす」お父さん・お母さんであると考えています。<br>
+                基本的な気持ちとしては介護する・介護されると言った立場の以前に、人としてのふれあいを大切に思うことが大切であると考えています。 </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 wow fadeInUp" data-wow-delay=".9s">
+            <div class="service-box2"> <img src="../images/top_point4.jpg" class="img-rounded img-responsive retina" alt="何よりも大切なのは安心です">
+              <h4 class="point_title">体の栄養心の栄誉を</h4>
+              <p class="point_read">
+                <!--<i class="icon icon-flag"></i>-->
+                毎日のことだからしっかりとしたいのが健康のための取り組みです。<br>
+                私達は体の健康とこころの健康に配慮して、その食事プランとレクレーションプランに力を入れ、健やかな暮らしを実現したいと考えています。<br>
+                ときにはワクワクするような催し物を企画したりとその「お楽しみ」には枚挙に暇がありません。 </p>
+            </div>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </section>
+    <!-- section about end -->
+    <!-- TemplateEndEditable -->
 
-		
+		<!-- TemplateBeginIf cond="_document['contact_main']" -->
     <!-- section newsletter start -->
     <section id="section-contact" class="bottom_margin50 bottom_padding20 top_padding30">
       <div class="container">
@@ -236,9 +287,9 @@
       </div>
     </section>
     <!-- section newsletter end -->
-    
+    <!-- TemplateEndIf -->
 		
-		
+		<!-- TemplateBeginIf cond="_document['footer_main']" -->
     <!-- section-footer start -->
     <footer id="section-footer">
       <div class="container">
@@ -261,7 +312,7 @@
                     <li><a href="../second_life/index.html">セカンドライフ</a></li>
                     <li><a href="../home/index.html">住宅型有料老人ホーム</a></li>
                     <li><a href="../day_service/index.html">デイサービス</a></li>
-                    <li><a href="index.html">施設のご案内</a></li>
+                    <li><a href="../branch/index.html">施設のご案内</a></li>
                     <!--<li><a href="#">施設利用規約</a></li>-->
                   </ul>
                 </div>
@@ -278,8 +329,8 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-delay=".5s">
-            <div class="footer-inner location"> <a href="umetsu.html"><img src="../images/footer_shisetu.jpg" class="img-responsive retina center-block" alt="ソーシャルライフ梅満"></a>
-              <p><a href="umetsu.html">ソーシャルライフ梅満</a></p>
+            <div class="footer-inner location"> <a href="../branch/umetsu.html"><img src="../images/footer_shisetu.jpg" class="img-responsive retina center-block" alt="ソーシャルライフ梅満"></a>
+              <p><a href="../branch/umetsu.html">ソーシャルライフ梅満</a></p>
 							<!--<a href="../viewing/index.html" class="btn btn-block btn-warning text-center btn-default top_margin10 btn_waku1"><p class="h4 text-center h4_footer_nairan">内覧会を開催しております。</p></a>-->
 							<div class="text-center"><a href="../viewing/index.html" class="btn btn-danger btn-sm btn_waku1 btn-block nairan_link_text" role="button">内覧見学会を開催しています</a></div>
               <!--<ul>
@@ -313,7 +364,7 @@
       <!-- container end -->
     </section>
     <!--footer-end-->
-    
+    <!-- TemplateEndIf -->
 		
 		<!-- Page back to top -->
      <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
@@ -351,4 +402,4 @@
 		<script type="text/javascript" src="../js/retina.js"></script>
 	
 </body>
-<!-- InstanceEnd --></html>
+</html>

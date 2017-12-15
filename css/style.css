@@ -96,11 +96,13 @@ html{
 }
 
 body{
-	border: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 14px;
-	background: #fff;
+  border: 0;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  background: #fff;
 }
 
 
@@ -305,15 +307,15 @@ h6 {
 }
 
 .navbar{
-	border: 0px none;
-	float: none;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	min-height: auto;
-	padding-left: 20px;
-	position: relative;
-	z-index: 777;
-	border-radius: 0px;
+  border: 0px none;
+  float: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  min-height: auto;
+  padding-left: 20px;
+  position: fixed;
+  z-index: 777;
+  border-radius: 0px;
 }
 
 .navbar-brand {
