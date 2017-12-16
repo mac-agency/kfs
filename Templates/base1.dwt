@@ -53,10 +53,7 @@
                 <div class="f-left texts">
                     <!-- Text -->
 									
-                    <h1 class="h1_text">
-											<!-- TemplateBeginEditable name="h1_text" -->
-											九州の介護福祉に貢献する住宅型老人ホームとデイサービス
-											<!-- TemplateEndEditable --></h1>
+                    
 									
               </div>
             </div>
@@ -82,12 +79,21 @@
             <a href="TEL:0942-65-6797">
                         <button class="ico_tel ico_tel_non"><i class="fa fa-phone" aria-hidden="true"></i>
 												</button>
-                        </a> 						
-            <div class="navbar-brand">
+            </a> 
+						
+						
+           
+						<!-- TemplateBeginEditable name="h1_meta" -->
+						<div class="navbar-brand">
                             <a href="../index.html" class="scroll">
-                                <img src="../images/header_logo.png" alt="" class="img-responsive retina">
+															<h1 class="h1_reset"><img src="../images/header_logo.png" alt="トップページ" class="img-responsive retina"></h1>
                             </a>
-                        </div>		        </div>
+                        </div>
+						<!-- TemplateEndEditable -->
+						
+					
+					
+					</div>
 		      <!-- Collect the nav links, forms, and other content for toggling -->
 		      <div class="collapse navbar-collapse" id="topFixedNavbar1">
 		        <ul class="nav navbar-nav">

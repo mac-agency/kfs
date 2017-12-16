@@ -53,10 +53,6 @@
                 <div class="f-left texts">
                     <!-- Text -->
 									
-                    <h1 class="h1_text">
-											<!-- TemplateBeginEditable name="h1_text" -->
-											九州の介護福祉に貢献する住宅型老人ホームとデイサービス
-											<!-- TemplateEndEditable --></h1>
 									
               </div>
             </div>
@@ -86,7 +82,9 @@
                         </a> 						
             <div class="navbar-brand">
                             <a href="../index.html" class="scroll">
-                                <img src="../images/header_logo.png" alt="" class="img-responsive retina">
+															<!-- TemplateBeginEditable name="h1_text" -->　
+															<h1 class="h1_text"><img src="../images/header_logo.png" alt="トップページ" class="img-responsive retina"></h1>
+															<!-- TemplateEndEditable -->
                             </a>
                         </div>		        </div>
 		      <!-- Collect the nav links, forms, and other content for toggling -->
