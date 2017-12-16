@@ -27,7 +27,7 @@ if ($mail_status) { ?>
 }
 else { ?>
     <script language="javascript" type="text/javascript">
-        alert('メッセージ送信に失敗しました。こちらのメールアドレスへお問い合わせください。test@gmail.com（※自分のメールアドレス）');
+        alert('メッセージ送信に失敗しました。こちらのメールアドレスへお問い合わせください。info@kyu-fukusi-service.co.jp');
         window.location = 'index.html（※送信失敗後に移動するページ）';
     </script>
 <?php
