@@ -142,19 +142,19 @@ a:hover img{
 }
 
 #home_top {
-  background-position: 50% 50%;
   background-image: url(../home/images/home_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #day_service_top {
-  background-position: 50% 50%;
   background-image: url(../day_service/images/day_service_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .home_hight {
@@ -215,12 +215,12 @@ a:hover img{
 }
 
 #umetsu_top {
-  background-position: 50% 50%;
   background-image: url(../branch/images/umetsu_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   margin-top: 30px;
+  background-repeat: no-repeat;
 }
 
 .h1_text {
@@ -296,12 +296,12 @@ a:hover img{
 }
 
 #company_top {
-  background-position: 80% 50%;
   background-image: url(../company/images/company_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
-  background-origin: content-box;
+  background-size: contain;
+  /* [disabled]background-origin: content-box; */
+  background-repeat: no-repeat;
 }
 
 #company_greeting {
@@ -329,11 +329,11 @@ a:hover img{
 }
 
 #faq_top {
-  background-position: 80% 50%;
   background-image: url(../faq/imeges/faq_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .ico_tel {
@@ -356,44 +356,44 @@ a:hover img{
 }
 
 #compliance_top {
-  background-position: 80% 50%;
   background-image: url(../compliance/images/compliance_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #policy_top {
-  background-position: 80% 50%;
   background-image: url(../privacy_policy/images/policy_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #contact_top {
-  background-position: 80% 50%;
   background-image: url(../contact/images/contact_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #branch_top {
-  background-position: 80% 50%;
   background-image: url(../branch/images/branch_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #second_top {
-  background-position: 80% 50%;
   background-image: url(../second_life/images/second_top@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   background-origin: content-box;
+  background-repeat: no-repeat;
 }
 
 .people_title {
@@ -499,6 +499,7 @@ a:hover img{
 
 .second_hight {
   height: 500px;
+  margin-top: 30px;
 }
 
 .contact-mail-name {
@@ -534,6 +535,18 @@ a:hover img{
 .h1_reset {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.midashi_bar3 {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  padding-left: 10px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -1309,6 +1322,10 @@ a:hover img{
   font-size: 11px;
   padding-left: 2px;
 }
+
+.navbar-brand {
+  width: 30%;
+}
 }
 
 @media (min-width:769px) and (max-width:812px){
@@ -1599,8 +1616,8 @@ li a {
   font-size: 11px;
   font-weight: normal;
   line-height: 27px;
-  padding-right: 15px;
-  padding-left: 12px;
+  padding-right: 9px;
+  padding-left: 9px;
   color: #333;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   letter-spacing: 1px;
@@ -1632,5 +1649,16 @@ li a {
   z-index: 9999;
   -webkit-box-shadow: 0px 0px 2px #777;
   box-shadow: 0px 0px 2px #777;
+}
+}
+
+@media (max-width:767px){
+
+.ico_tel_non {
+  display: block;
+}
+
+.navbar-toggle {
+  background-color: #E297B6;
 }
 }
