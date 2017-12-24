@@ -1194,7 +1194,7 @@ figure.effect-zoe figcaption .icon-links a:hover i{
 .footer-inner{
   /* [disabled]border-right-style: solid; */
   /* [disabled]border-right-width: 1px; */
-  padding: 40px 0px;
+  padding: 30px 0px 40px;
 }
 .footer-inner.location{
 	border-right: 0px;
@@ -1339,7 +1339,7 @@ figure.effect-zoe figcaption .icon-links a:hover i{
 }
 
 .section-padding{
-  padding: 30px 0px 80px;
+  padding: 30px 0px 20px;
 }
 
 
@@ -2771,7 +2771,7 @@ a.details:hover{
 ================================================*/
 
 #intro-wrap .service-box2{
-	margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 

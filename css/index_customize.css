@@ -32,6 +32,12 @@ a:hover img{
 .retina {
 }
 
+.ph_shadow {
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
 .top_margin5 {
   margin-top: 5px;
 }
@@ -51,6 +57,9 @@ a:hover img{
   text-align: center;
   line-height: 1.6em;
   font-weight: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 26px;
 }
 
 .back_home {
@@ -129,6 +138,8 @@ a:hover img{
   line-height: 3em;
   border-top: 1px solid hsla(0,0%,0%,1.00);
   border-bottom: 1px solid hsla(0,0%,0%,1.00);
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 #section-contact {
@@ -158,7 +169,7 @@ a:hover img{
 }
 
 .home_hight {
-  height: 500px;
+  height: 100%;
   margin-top: 30px;
 }
 
@@ -174,6 +185,7 @@ a:hover img{
   line-height: 2em;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .home_point_read {
@@ -353,6 +365,8 @@ a:hover img{
 .otoiawase {
   font-size: 31px;
   color: hsla(0,0%,100%,1.00);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #compliance_top {
@@ -498,7 +512,7 @@ a:hover img{
 }
 
 .second_hight {
-  height: 500px;
+  height: 100％;
   margin-top: 30px;
 }
 
@@ -529,7 +543,7 @@ a:hover img{
 }
 
 .contact-mail-contents {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .h1_reset {
@@ -547,6 +561,37 @@ a:hover img{
   line-height: 2em;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.slide_title {
+}
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 19px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.service_point {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid hsla(0,0%,30%,1.00);
+  border-bottom: 1px solid hsla(0,0%,30%,1.00);
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.bn_point_read {
+  font-size: 13px;
+  text-align: center;
 }
 
 
@@ -581,6 +626,9 @@ a:hover img{
 .otoiawase {
   font-size: 19px;
   color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main_title {
@@ -710,6 +758,46 @@ a:hover img{
   margin-top: 30px;
 }
 
+.slide_title {
+  font-size: 19px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 100px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
+.service_point {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid hsla(0,0%,30%,1.00);
+  border-bottom: 1px solid hsla(0,0%,30%,1.00);
+  margin-bottom: 20px;
+}
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bn_point_read {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back_pink {
+  background-color: #E699BB;
+  height: 350px;
+}
+
 
 }
 
@@ -735,6 +823,8 @@ a:hover img{
 .otoiawase {
   font-size: 22px;
   color: hsla(0,0%,100%,1.00);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main_title {
@@ -869,6 +959,47 @@ a:hover img{
   height: 100%;
   margin-top: 30px;
 }
+
+.slide_title {
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 100px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  text-transform: none;
+}
+
+.service_point {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid hsla(0,0%,30%,1.00);
+  border-bottom: 1px solid hsla(0,0%,30%,1.00);
+  margin-bottom: 20px;
+}
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bn_point_read {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back_pink {
+  background-color: #E699BB;
+  height: 350px;
+}
 }
 
 @media (min-width:376px) and (max-width:414px){
@@ -893,6 +1024,8 @@ a:hover img{
 .otoiawase {
   font-size: 25px;
   color: hsla(0,0%,100%,1.00);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main_title {
@@ -1019,6 +1152,46 @@ a:hover img{
 .company_hight {
   height: 100%;
   margin-top: 30px;
+}
+
+.slide_title {
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 100px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
+.service_point {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid hsla(0,0%,30%,1.00);
+  border-bottom: 1px solid hsla(0,0%,30%,1.00);
+  margin-bottom: 30px;
+}
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bn_point_read {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.back_pink {
+  background-color: #E699BB;
+  height: 350px;
 }
 }
 
@@ -1329,6 +1502,17 @@ a:hover img{
 }
 
 @media (min-width:769px) and (max-width:812px){
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
 }
 
 @media (min-width:813px) and (max-width:1024px){
@@ -1472,6 +1656,17 @@ li a {
 
 .footer-link li a {
   font-size: 12px;
+}
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 }
 
@@ -1660,5 +1855,12 @@ li a {
 
 .navbar-toggle {
   background-color: #E297B6;
+}
+}
+
+@media (min-width:992px){
+
+.pc_img_margin1 {
+  margin-bottom: 30px;
 }
 }
