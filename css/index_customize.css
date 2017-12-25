@@ -147,6 +147,11 @@ a:hover img{
   -webkit-background-size: cover;
   background-size: cover;
 }
+#section-contact2 {
+  background: url("../images/bg/contact_back.jpg") fixed 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
 
 .footer_read {
   line-height: 1.5em;
@@ -318,10 +323,10 @@ a:hover img{
 
 #company_greeting {
   background-position: 50% 50%;
-  background-image: url(../company/images/company_greeting@2x.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
+  background-color: hsla(334,61%,75%,1.00);
 }
 
 .company_greeting_text {
@@ -338,6 +343,8 @@ a:hover img{
 
 .bg-white {
   background-color: hsla(0,0%,100%,0.60);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #faq_top {
@@ -700,10 +707,10 @@ a:hover img{
 
 #company_greeting {
   background-position: 58% 50%;
-  background-image: url(../company/images/company_greeting@2x.jpg);
   background-attachment: scroll;
   -webkit-background-size: cover;
   background-size: cover;
+  background-color: hsla(334,61%,75%,1.00);
 }
 
 .btn {
@@ -897,10 +904,10 @@ a:hover img{
 
 #company_greeting {
   background-position: 58% 50%;
-  background-image: url(../company/images/company_greeting@2x.jpg);
   background-attachment: scroll;
   -webkit-background-size: cover;
   background-size: cover;
+  background-color: hsla(334,61%,75%,1.00);
 }
 
 .btn {
@@ -1098,10 +1105,10 @@ a:hover img{
 
 #company_greeting {
   background-position: 58% 50%;
-  background-image: url(../company/images/company_greeting@2x.jpg);
   background-attachment: scroll;
   -webkit-background-size: cover;
   background-size: cover;
+  background-color: hsla(334,61%,75%,1.00);
 }
 
 .btn {
