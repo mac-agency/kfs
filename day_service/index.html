@@ -9,6 +9,7 @@
   <!-- InstanceBeginEditable name="meta" -->
   <meta name="description" content="ソーシャルライフ梅満は住宅型有料老人ホームと通所介護（デイサービス）サービス事業です。料金も定額でプライベートな居住空間の確保し入居者の方々が笑顔を積み重ねて刺激的で生き甲斐のあるセカンドライフの実現を目指しております。健康状態チェックから日頃の手足の簡単な運動など詳しくはデイサービスの1日の流れを御覧ください。">
   <meta name="keywords" content="デイサービス,セカンドライフ,住宅型有料老人ホーム">
+  <link href="../css/lightbox.css" rel="stylesheet" type="text/css">
   <!-- InstanceEndEditable -->
   <meta name="author" content="株式会社九州福祉サービス">
   <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="../favicon.ico">
@@ -59,6 +60,8 @@
   <!-- InstanceParam name="footer_main" type="boolean" value="true" -->
   <!-- InstanceParam name="contact_main" type="boolean" value="true" -->
   <!-- InstanceBeginEditable name="head" -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/lightbox.js"></script>
   <!-- InstanceEndEditable -->
   <!-- InstanceParam name="contact_umemitsu" type="boolean" value="false" -->
   </head>
@@ -121,7 +124,13 @@
 		          <li><a href="../index.html">HOME<span class="sr-only">(current)</span></a></li>
 		          <li><a href="../home/index.html">住宅型老人ホーム</a></li>
 		          <li><a href="index.html">デイサービス</a></li>
-		          <li><a href="../branch/index.html">施設</a></li>
+		          <li class="dropdown"><a href="../branch/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">施設一覧
+							<i class="fa fa-caret-down"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href="../branch/index.html" >施設のご案内</a></li>
+                <li><a href="../branch/umemitsu.html" >ソーシャルライフ梅満</a></li>
+                </ul>
+							</li>
 		          <li><a href="../faq/index.html">よくある質問</a></li>
 	          </ul>
 						
@@ -263,7 +272,21 @@
 		  </div>
     </div>
 		
-		
+		<div class="container top_margin30">
+			
+		  <div class="row row-10">
+				 <div class="col-lg-12"><h3 class="midashi_bar2"><i class="fa fa-chevron-circle-right right_margin10" aria-hidden="true"></i>とても過ごしやすいデイサービス</h3></div>
+				<div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph1@2x.jpg" data-lightbox="group01" data-title="食堂・談話室"><img src="images/day_service_ph1.jpg" class="img-responsive retina" alt="食堂・談話室"></a><p class="day_lb_text">デイサービス</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph2@2x.jpg" data-lightbox="group01" data-title="居室廊下"><img src="images/day_service_ph2.jpg" class="img-responsive retina" alt="居室廊下"></a><p class="day_lb_text">デイサービスフロア</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph3@2x.jpg" data-lightbox="group01" data-title="エレベーター"><img src="images/day_service_ph3.jpg" class="img-responsive retina" alt="エレベーター"></a><p class="day_lb_text">ラジオ体操</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph4@2x.jpg" data-lightbox="group01" data-title="スタッフと一緒に楽しく"><img src="images/day_service_ph4.jpg" class="img-responsive retina" alt="スタッフと一緒に楽しく"></a><p class="day_lb_text">スタッフと一緒に楽しく</p></div>
+				<div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph5@2x.jpg" data-lightbox="group01" data-title="みんなで軽い運動"><img src="images/day_service_ph5.jpg" class="img-responsive retina" alt="みんなで軽い運動"></a><p class="day_lb_text">みんなで軽い運動</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph6@2x.jpg" data-lightbox="group01" data-title="スタッフが優しく指導します"><img src="images/day_service_ph6.jpg" class="img-responsive retina" alt="スタッフが優しく指導します"></a><p class="day_lb_text">スタッフが優しく指導します</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph7@2x.jpg" data-lightbox="group01" data-title="静養室でゆっくりできます"><img src="images/day_service_ph7.jpg" class="img-responsive retina" alt="静養室でゆっくりできます"></a><p class="day_lb_text">静養室でゆっくりできます</p></div>
+		    <div class="col-sm-3 col-xs-6 top_margin5"><a href="images/day_service_ph8@2x.jpg" data-lightbox="group01" data-title="環境・設備が充実しています"><img src="images/day_service_ph8.jpg" class="img-responsive retina" alt="環境・設備が充実しています"></a><p class="day_lb_text">環境・設備が充実しています</p></div>
+	    </div>			
+			
+    </div>		
 	  <div class="container top_margin10">
 	    <div class="row">
 	      <div class="col-lg-12"><h3 class="midashi_bar2"><i class="fa fa-chevron-circle-right right_margin10" aria-hidden="true"></i>デイサービス1日の流れ（一例）</h3></div>
@@ -392,6 +415,7 @@
                     <li><a href="../privacy_policy/index.html">プライバシーポリシー</a></li>
                     <li><a href="../compliance/index.html">コンプライアンス</a></li>
                     <li><a href="../faq/index.html">よくある質問</a></li>
+										<li><a href="../site_map/index.html">サイトマップ</a></li>
                     <li><a href="../contact/index.html">お問合せ</a></li>
                   </ul>
                 </div>
@@ -466,10 +490,10 @@
     <script type="text/javascript" src="../js/jquery.waypoints.min.js"></script>
     <!-- Slideshow bg -->
     <script src="../js/jquery.backstretch.min.js"></script>
-    <script type="text/javascript" src="../js/custom.js"></script>
+    
     <!-- Google Map API Key Source -->
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 		<script type="text/javascript" src="../js/retina.js"></script>
-	
+	<script type="text/javascript" src="../js/custom.js"></script>
 </body>
 <!-- InstanceEnd --></html>

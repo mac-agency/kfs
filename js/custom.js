@@ -22,12 +22,12 @@ jQuery(function($) {
   "use strict";
 
 
-    $.noConflict();
+    /*$.noConflict();
      $('.navbar-nav a').on('click', function(){ 
         if($('.navbar-toggle').css('display') !='none'){
             $(".navbar-toggle").trigger( "click" );
         }
-    });
+    });*/
 
 
   /* === jQuery for page scrolling feature - requires jQuery Easing plugin === */
