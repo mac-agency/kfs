@@ -655,6 +655,12 @@ a:hover img{
   padding-left: 10px;
 }
 
+.kengaku_title {
+  color: hsla(0,0%,20%,1.00);
+  font-size: 21px;
+  padding-bottom: 5px;
+}
+
 
 
 @media (max-width:320px){
