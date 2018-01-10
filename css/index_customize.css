@@ -661,9 +661,50 @@ a:hover img{
   padding-bottom: 5px;
 }
 
+.copy_right {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.ico_center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+
+.ico_center:hover {
+  color: hsla(0,0%,100%,1.00);
+}
+.ico_tel:hover {
+  color: hsla(0,0%,100%,1.00);
+}
+
+.ico_tel:focus {
+  color: hsla(0,0%,100%,1.00);
+}
+
+.back_to_cyousei {
+  margin-top: 8px;
+}
+
+.kuwashiku_click {
+  font-size: 13px;
+}
+
 
 
 @media (max-width:320px){
+
+.ico_center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 15px;
+  padding-top: 7px;
+}
 
 .fee_table_width {
   width: 20%;

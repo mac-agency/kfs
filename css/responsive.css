@@ -76,7 +76,7 @@ figure.effect-zoe figcaption {
 	margin-bottom: 40px;
 }
 .navbar-nav .dropdown-menu {
-    left: -105px;
+  /* [disabled]left: -105px; */
 }
 
 /* 	about 
@@ -211,8 +211,9 @@ figure.effect-zoe figcaption {
 }
 
 .navbar-nav li a{
-    border-bottom: 1px solid#ccc;
-    padding: 21px 20px 10px;
+  /* [disabled]border-bottom-style: solid; */
+  /* [disabled]border-bottom-width: 1px; */
+  /* [disabled]padding: 21px 20px 10px; */
 }
 .carousel-caption .btn-3e {
     padding: 7px 56px 9px 35px;
@@ -379,8 +380,9 @@ figure.effect-zoe figcaption {
 }
 
 .navbar-nav li a{
-  border-bottom: 1px solid#ccc;
-  padding: 10px 20px;
+  /* [disabled]border-bottom-style: solid; */
+  /* [disabled]border-bottom-width: 1px; */
+  /* [disabled]padding: 10px 20px; */
 }
 .navbar-nav{
     margin: 0px;
