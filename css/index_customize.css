@@ -694,6 +694,10 @@ a:hover img{
   font-size: 13px;
 }
 
+.text_deco {
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
 
 
 @media (max-width:320px){
@@ -711,7 +715,9 @@ a:hover img{
 }
 
 .navbar-brand {
-  width: 60%;
+  width: 65%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .company_table_width1 {
@@ -1140,6 +1146,13 @@ a:hover img{
 .day_lb_text {
   font-size: 11px;
 }
+
+.navbar-brand {
+  width: 65%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 9px;
+}
 }
 
 @media (min-width:376px) and (max-width:414px){
@@ -1348,6 +1361,13 @@ a:hover img{
 
 .day_lb_text {
   font-size: 13px;
+}
+
+.navbar-brand {
+  width: 65%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 9px;
 }
 }
 
