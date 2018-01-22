@@ -175,7 +175,7 @@ a:hover img{
 
 .home_hight {
   height: 100%;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .midashi_bar1 {
@@ -236,7 +236,7 @@ a:hover img{
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: contain;
-  margin-top: 30px;
+  margin-top: 45px;
   background-repeat: no-repeat;
 }
 
@@ -298,7 +298,7 @@ a:hover img{
 
 .company_hight {
   height: 100%;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .welcome-wrapper {
@@ -520,7 +520,7 @@ a:hover img{
 
 .second_hight {
   height: 100％;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .contact-mail-name {
@@ -696,6 +696,20 @@ a:hover img{
 
 .text_deco {
   text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
+.list_footer {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.footer_lest2 {
+  padding-left: 10px;
+  font-size: 15px;
+}
+.br_768 {
+  display: none;
 }
 
 
@@ -1375,9 +1389,9 @@ a:hover img{
 
 .navbar-brand {
   padding-right: 15px;
-  padding-left: 10px;
+  padding-left: 0px;
   margin-left: 0px;
-  width: 30%;
+  width: 60%;
 }
 
 .bn_non {
@@ -1675,6 +1689,58 @@ a:hover img{
 .navbar-brand {
   width: 30%;
 }
+
+.bn_point {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.bn_point_read {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.midashi_bar3 {
+  background-color: hsla(334,61%,75%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  padding-left: 10px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+  line-height: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.day_lb_text {
+  font-size: 12px;
+}
+
+.schedule_text {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.nairan_link_text {
+  font-size: 10px;
+}
+
+.footer_read {
+  line-height: 1.5em;
+  font-size: 13px;
+}
+
+.br_768 {
+  display: block;
+}
 }
 
 @media (min-width:769px) and (max-width:812px){
@@ -1695,12 +1761,12 @@ a:hover img{
 
 .navbar-brand {
   float: left;
-  padding-top: 18px;
+  padding-top: 17px;
   padding-bottom: 10px;
   /* [disabled]height: 40px; */
   /* [disabled]font-size: 18px; */
   /* [disabled]line-height: 20px; */
-  width: 150px;
+  width: 160px;
 }
 
 li a {
@@ -1711,8 +1777,8 @@ li a {
   font-size: 11px;
   font-weight: normal;
   line-height: 27px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 13px;
+  padding-left: 13px;
   color: #333;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   letter-spacing: 1px;
@@ -1987,8 +2053,8 @@ li a {
   font-size: 11px;
   font-weight: normal;
   line-height: 27px;
-  padding-right: 9px;
-  padding-left: 9px;
+  padding-right: 8px;
+  padding-left: 8px;
   color: #333;
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   letter-spacing: 1px;
@@ -2038,5 +2104,16 @@ li a {
 
 .pc_img_margin1 {
   margin-bottom: 30px;
+}
+}
+
+@media (max-width:991px){
+
+.ico_tel_non {
+  display: block;
+}
+
+.navbar-toggle {
+  background-color: #E297B6;
 }
 }
